@@ -1,0 +1,18 @@
+[package]
+
+name = "ipecho"
+version = "0.0.1"
+description = "Simplest ipecho client"
+repository = "https://github.com/diorahman/ipecho-rs.git"
+authors = [ "Dhi Aurrahman <dio@hooq.tv>" ]
+keywords = [ "ipecho", "public", "ip", "address" ]
+readme = "README.md"
+license = "MIT"
+
+[[bin]]
+name = "ipecho"
+path = "src/main.rs"
+
+[dependencies]
+hyper = "0.9.10"
+url = "1.2.0"
